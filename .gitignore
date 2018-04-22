@@ -1,0 +1,20 @@
+# Common folders
+crashdumps/*
+players/*
+plugins/*
+resource_packs/
+worlds/*
+
+
+# Config file
+/server.properties
+/pocketmine.yml
+
+/banned-ips.txt
+/banned-players.txt
+/ops.txt
+/white-list.txt
+
+
+# Log file
+/server.log
