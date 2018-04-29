@@ -24,5 +24,7 @@ if exist %MAIN_PATH%PocketMine-MP.phar (
 )
 
 REM pause on exitcode != 0 so the user can see what went wrong
+:loop
 %PHP_BINARY% -c %PHP_PATH% %POCKETMINE_FILE% %* || pause
 pause
+goto loop
