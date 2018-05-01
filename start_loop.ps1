@@ -10,5 +10,7 @@ if(Test-Path "PocketMine-MP.phar"){
 	exit 1
 }
 
-iex ("powershell _core\php\php.exe " + $file)
-pause
+while($true){
+    iex ("powershell _core\php\php.exe " + $file)
+    pause
+}
