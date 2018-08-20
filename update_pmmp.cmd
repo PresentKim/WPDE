@@ -9,8 +9,3 @@ set CORE_PATH=%MAIN_PATH%_core\
 cd %CORE_PATH%pmmp\
 git pull
 git submodule update --recursive
-
-:: Commit all changes with message "Update Pocektmine-MP submodule"
-cd %MAIN_PATH%
-git commit -am "Update Pocektmine-MP submodule"
-git push
