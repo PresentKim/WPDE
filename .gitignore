@@ -2,6 +2,7 @@
 crashdumps/*
 players/*
 plugins/*
+plugin_data/*
 resource_packs/
 worlds/*
 
