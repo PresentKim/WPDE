@@ -7,7 +7,7 @@ set CORE_PATH=%MAIN_PATH%_core\
 
 :: Update PMMP and submodules
 cd %CORE_PATH%pmmp\
-git pull
+git pull "https://github.com/pmmp/PocketMine-MP.git" "master"
 git submodule init
 git submodule update --recursive
 
