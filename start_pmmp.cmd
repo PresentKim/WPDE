@@ -1,5 +1,5 @@
 @echo off
-TITLE [WPDE] Start PMMP (LOOP)
+TITLE [WPDE] Start PMMP
 cd /d %~dp0
 
 set MAIN_PATH=%~dp0
@@ -21,8 +21,8 @@ if exist %MAIN_PATH%PocketMine-MP.phar (
 set PHPRC=""
 set PHP_PATH=%CORE_PATH%php\
 
+::Start PMMP (infinite loop)
 :loop
-::Start PMMP
 %PHP_PATH%php.exe -c %PHP_PATH% %POCKETMINE_FILE% %* || pause
 
 pause
