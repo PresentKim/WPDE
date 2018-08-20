@@ -8,6 +8,7 @@ set CORE_PATH=%MAIN_PATH%_core\
 :: Update PMMP and submodules
 cd %CORE_PATH%pmmp\
 git pull
+git submodule init
 git submodule update --recursive
 
 :: Update composer
