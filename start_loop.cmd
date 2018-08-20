@@ -1,5 +1,5 @@
 @echo off
-TITLE PocketMine-MP server software for Minecraft: Pocket Edition
+TITLE [WPDE] Start PMMP (LOOP)
 cd /d %~dp0
 
 set PHPRC=""
@@ -7,6 +7,8 @@ set MAIN_PATH=%~dp0
 set CORE_PATH=%MAIN_PATH%_core\
 set PHP_PATH=%CORE_PATH%php\
 set PHP_BINARY=%PHP_PATH%php.exe
+
+::Find PocketMine-MP core file
 if exist %MAIN_PATH%PocketMine-MP.phar (
     set POCKETMINE_FILE=%MAIN_PATH%PocketMine-MP.phar
 ) else (
@@ -23,8 +25,9 @@ if exist %MAIN_PATH%PocketMine-MP.phar (
     )
 )
 
-REM pause on exitcode != 0 so the user can see what went wrong
 :loop
-%PHP_BINARY% -c %PHP_PATH% %POCKETMINE_FILE% %* || pause
+::Start PMMP
+%PHP_PATH%php.exe -c %PHP_PATH% %POCKETMINE_FILE% %* || pause
+
 pause
 goto loop
