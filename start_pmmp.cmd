@@ -23,7 +23,7 @@ set PHP_PATH=%CORE_PATH%php\
 
 ::Start PMMP (infinite loop)
 :loop
-%PHP_PATH%php.exe -c %PHP_PATH% %POCKETMINE_FILE% %* || pause
+%PHP_PATH%php.exe -c %PHP_PATH% %POCKETMINE_FILE% %*
 
 pause
 goto loop
