@@ -10,7 +10,7 @@ if exist %MAIN_PATH%PocketMine-MP.phar (
     set POCKETMINE_FILE=%MAIN_PATH%PocketMine-MP.phar
 ) else (
     if exist %CORE_PATH%pmmp\ (
-        set POCKETMINE_FILE=%CORE_PATH%pmmp\src\pocketmine\PocketMine.php
+        set POCKETMINE_FILE=%CORE_PATH%pmmp\src\PocketMine.php
     ) else (
         echo "Couldn't find a valid PocketMine-MP installation"
         pause

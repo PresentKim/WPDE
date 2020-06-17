@@ -1,9 +1,9 @@
 This snapshot was automatically generated on
-Tue, 31 Jul 2018 08:48:46 +0000
+Sat, 13 Jun 2020 10:23:25 +0000
 
-Version: 7.2.8
+Version: 7.3.19
 Branch: HEAD
-Build: C:\pocketmine-php-sdk\php-src\x64\Release_TS
+Build: D:\a\1\s\pocketmine-php-sdk\php-src\x64\Release_TS
 
 Built-in Extensions
 ===========================
@@ -16,7 +16,6 @@ filter
 hash
 iconv
 json
-mcrypt
 SPL
 pcre
 readline
@@ -47,12 +46,20 @@ mysqli
 Dependency information:
 Module: php7ts.dll
 ===========================
-	libssh2.dll
-	nghttp2.dll
 	libcrypto-1_1-x64.dll
 	libssl-1_1-x64.dll
+	libssh2.dll
+	nghttp2.dll
 	libsodium.dll
 	yaml.dll
+
+Module: libssl-1_1-x64.dll
+===========================
+	libcrypto-1_1-x64.dll
+
+Module: libssh2.dll
+===========================
+	libcrypto-1_1-x64.dll
 
 Module: php_leveldb.dll
 ===========================
@@ -65,7 +72,7 @@ Module: php_openssl.dll
 
 Module: php_pthreads.dll
 ===========================
-	pthreadvc2.dll
+	pthreadvc3.dll
 
 Module: php_crypto.dll
 ===========================
