@@ -14,6 +14,7 @@ git submodule update --recursive
 :: Update composer
 set PHPRC=""
 set PHP_PATH=%CORE_PATH%php\
-cd %PMMP_PATH%
+cd %CORE_PATH%pmmp\
 %PHP_PATH%php.exe %CORE_PATH%composer.phar install
 cd %MAIN_PATH%
+pause
