@@ -10,6 +10,7 @@ worlds/*
 # Config file
 /server.properties
 /pocketmine.yml
+/plugin_list.yml
 
 /banned-ips.txt
 /banned-players.txt
@@ -21,4 +22,4 @@ worlds/*
 /server.log
 PocketMine-MP.phar
 desktop.ini
-server.lock
+/server.lock
