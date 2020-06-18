@@ -19,5 +19,3 @@ set PHPRC=""
 set PHP_PATH=%CORE_PATH%php\
 
 %PHP_PATH%php.exe -dphar.readonly=0 %DEVTOOLS_PATH%src\DevTools\ConsoleScript.php --make %DEVTOOLS_PATH% --relative %DEVTOOLS_PATH% --out %MAIN_PATH%plugins\DevTools.phar %*
-
-pause
