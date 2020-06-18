@@ -21,3 +21,4 @@ worlds/*
 /server.log
 PocketMine-MP.phar
 desktop.ini
+server.lock
